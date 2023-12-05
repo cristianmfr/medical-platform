@@ -1,0 +1,138 @@
+/* estilização padrão para todas as views */
+.main-signup-container{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px;
+}
+/* fim */
+
+/* container/caixa principal */
+.main-signup-container div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* card */
+.signup-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    height: 700px;
+    width: 500px;
+
+    background-color: white;
+    border-radius: 20px;
+
+    color: #242424;
+}
+
+/* divider com texto */
+.itens-divider{
+    display: flex;
+    flex-direction: row;
+
+    width: 420px;
+}
+
+.signup-container h2{
+    margin-bottom: 10px;
+}
+
+.form-signup-container{
+    flex-direction: column;
+}
+
+/* formulario de login */
+.form-signup-container input{
+    width: 410px;
+    height: 40px;
+
+    color: #242424;
+    font-weight: 700;
+    background-color: transparent;
+
+    border: solid 1.5px #242424;
+    border-radius: 10px;
+
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* nome */
+.name-container input{
+    width: 200px;
+
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* btn de login */
+.signup-container button{
+    margin-bottom: 10px;
+
+    font-weight: 900;
+    color: #242424;
+    
+    background-color: rgb(0, 255, 107);
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+
+    width: 400px;
+    height: 40px;
+
+    cursor: pointer;
+}
+
+/* divider */
+.divider{
+    border: solid 0.5px #ebebeb;
+    width: 400px;
+    margin: 10px;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* container termos */
+.terms-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: small;
+
+    width: 400px;
+    margin: 10px;
+}
+
+.terms-container input{
+    margin-left: 10px;
+}
+
+.terms-container p{
+    margin-left: 20px;
+}
+
+/* caso já tenha login */
+.login-rb{
+    font-size: small;
+
+    margin-top: 10px;
+}
+
+.user-adress input{
+    width: 200px;
+
+    margin-left: 5px;
+    margin-right: 5px;
+}

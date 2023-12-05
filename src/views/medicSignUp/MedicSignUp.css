@@ -1,0 +1,136 @@
+/* estilização padrão para todas as views */
+.main-medic-signup-container{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px;
+}
+/* fim */
+
+/* card */
+.medic-signup-container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 950px;
+    width: 500px;
+
+    background-color: white;
+    border-radius: 20px;
+
+    color: #242424;
+}
+
+.medic-signup-container h2{
+    margin-bottom: 10px;
+}
+
+.form-medic-signup-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* formulario de login */
+.form-medic-signup-container input{
+    width: 410px;
+    height: 40px;
+
+    color: #242424;
+    font-weight: 700;
+    background-color: transparent;
+
+    border: solid 1.5px #242424;
+    border-radius: 10px;
+
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.name-container input{
+    width: 200px;
+
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* btn de login */
+.medic-signup-container button{
+    margin-top: 10px;
+
+    font-weight: 900;
+    color: #242424;
+    
+    background-color: rgb(0, 255, 107);
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+
+    width: 300px;
+    height: 40px;
+
+    cursor: pointer;
+}
+
+.other-options a{
+    text-decoration: none;
+    font-size: small;
+    color: black;
+}
+
+/* dropdown style */
+.specialty-select{
+    width: 410px;
+    height: 40px;
+
+    color: #242424;
+    background-color: transparent;
+
+    font-size: smaller;
+    font-weight: 500;
+
+    border: solid 1.5px #242424;
+    border-radius: 10px;
+
+    margin-top: 10px;
+
+    cursor: pointer;
+}
+
+.medic-signup-container h4{
+    margin-top: 10px;
+    font-size: small;
+    font-weight: 500;
+}
+
+.profile-photo-upload{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.profile-photo-upload input{
+    width: 240px;
+    font-size: x-small;
+    margin-left: 10px;
+}
+
+.loc-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.divider{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}

@@ -1,0 +1,182 @@
+/* estilização padrão para todas as views */
+.main-login-container{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px;
+}
+/* fim */
+
+/* banner principal */
+.banner-info-container{
+    height: 700px;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+/* containers para alinhamento */
+.left-container{
+    margin: 20px;
+    padding-left: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 50%;
+    height: 100%;
+
+    font-size: larger;
+}
+
+.text-info-container p{
+    margin-top: 10px;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    flex-direction: row;
+}
+
+.button-container a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20px;
+
+    font-weight: 700;
+    font-size: small;
+    color: #242424;
+    
+    background-color: rgb(0, 255, 107);
+    border-radius: 30px;
+    text-decoration: none;
+
+    padding: 0px 20px;
+    margin-right: 10px;
+
+    height: 40px;
+
+    cursor: pointer;
+}
+
+.button-container a:hover{
+    background-color: rgb(17, 228, 105);
+
+    transition: ease 0.3s;
+}
+
+.right-container{
+    margin: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50%;
+    height: 100%;
+}
+
+/* informações de processos */
+.info-help-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0px 20px;
+
+    height: 250px;
+
+    background-color: white;
+    border-radius: 20px;
+
+    color: #242424;
+}
+/* formatação do texto */
+.info-help-container i{
+    margin-right: 10px;
+}
+
+.info-help-container strong{
+    margin-bottom: 10px;
+}
+
+/* container individual */
+.info-help-container div{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.image-container{
+    width: 40%;
+}
+
+/* cta profissional */
+.more-info-business{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 20px;
+    padding: 40px;
+    height: 400px;
+
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/projetointegrador-42949.appspot.com/o/assets%2Fmedicos.png?alt=media&token=e6b097a9-ea72-42e9-8cc6-9ac9daa29bae&_gl=1*nbped1*_ga*MTgyMzk0MzY5Ni4xNjg5MjYzOTk2*_ga_CW55HF8NVT*MTY5ODI3ODg0My44My4xLjE2OTgyODA0ODAuMjMuMC4w");
+    background-position: 65px -28px;
+    background-repeat: no-repeat;
+    background-size: 30% auto;
+    background-color: white;
+    border-radius: 20px;
+
+    color: #242424;
+}
+
+.text-info-container-2{
+    width: 60%;
+}
+
+.text-info-container-2 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 600;
+    color: white;
+    
+    background-color: #242424;
+    border-radius: 30px;
+    text-decoration: none;
+
+    width: 200px;
+    height: 40px;
+
+    cursor: pointer;
+
+    margin-top: 20px;
+}
+
+.text-info-container-2 a:hover{
+    background-color: #000000;
+
+    transition: ease 0.3s;
+}
+
+.parag{
+    margin-top: 10px;
+}
+

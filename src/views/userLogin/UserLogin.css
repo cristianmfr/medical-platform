@@ -1,0 +1,115 @@
+/* estilização padrão para todas as views */
+.main-login-container{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px;
+}
+/* fim */
+
+/* container/caixa principal */
+.main-login-container div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* card */
+.login-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    height: 600px;
+    width: 500px;
+
+    background-color: white;
+    border-radius: 20px;
+
+    color: #242424;
+}
+
+.login-container h2{
+    margin-bottom: 10px;
+}
+
+.form-container{
+    flex-direction: column;
+}
+
+/* formulario de login */
+.form-container input{
+    width: 300px;
+    height: 40px;
+
+    color: #242424;
+    font-weight: 700;
+    background-color: transparent;
+
+    border: solid 1.5px #242424;
+    border-radius: 10px;
+
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* btn de login */
+.form-container button{
+    margin-top: 10px;
+
+    font-weight: 900;
+    color: #242424;
+    
+    background-color: rgb(0, 255, 107);
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+
+    width: 300px;
+    height: 40px;
+
+    cursor: pointer;
+}
+
+.more-actions-container{
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.more-actions-container a{
+    color: #242424;
+    text-decoration: none;
+
+    font-size:smaller;
+}
+
+.more-actions-container a:hover{
+    color: #000000;
+}
+
+/* divider */
+.divider{
+    border: solid 0.5px #ebebeb;
+    width: 300px;
+    margin: 10px;
+}
+
+.social-mediai-icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media-icons button{
+    margin-left: 5px;
+    margin-right: 5px;
+
+    background-color: transparent;
+    border: none;
+
+    color: #242424;
+
+    cursor: pointer;
+}

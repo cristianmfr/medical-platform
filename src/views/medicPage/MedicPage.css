@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    margin: 10px 0px;
+}
+
+.main-medic-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 50px;
+}
+
+.main-medic-page input {
+    width: 410px;
+    height: 40px;
+
+    color: #242424;
+    font-weight: 700;
+    background-color: transparent;
+
+    border: solid 1.5px #242424;
+    border-radius: 10px;
+
+    padding: 10px;
+}
+
+.main-medic-page select{
+    width: 410px;
+    height: 40px;
+
+    color: #242424;
+    font-weight: 700;
+    background-color: transparent;
+
+    border: solid 1.5px #242424;
+    border-radius: 10px;
+
+    padding: 10px;
+}
+
+.medic-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+    width: 700px;
+    height: 150px;
+    border-radius: 20px;
+    color: #242424;
+
+    margin-bottom: 20px;
+}
+
+.profile-photo{
+    width: 100px;
+    height: 100px;
+    background: #242424;
+    border-radius: 15px;
+
+    margin: 20px;
+}
+
+.name-and-speciality{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    margin-right: 20px;
+}
+
+.schedules-and-create{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 700px;
+    height: 800px;
+    background: white;
+    border-radius: 20px;
+    color: #242424;
+
+    padding: 30px;
+}
+
+.schedules{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.localization{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loc-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: smaller;
+}
+
+.loc-googlemaps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 410px;
+    height: 200px;
+    background: #242424;
+    border-radius: 15px;
+
+    margin-left: 20px;
+
+}
+
+.loc-googlemaps button{
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: small;
+    color: rgb(0, 255, 107);
+    
+    background-color: transparent;
+    border: solid 1px rgb(0, 255, 107);
+    border-radius: 10px;
+    text-decoration: none;
+
+    width: 100px;
+    height: 30px;
+
+    cursor: pointer;
+}
+
+.loc-googlemaps button:hover{
+    background-color: rgb(0, 255, 107);
+    color: #242424;
+    transition: ease 0.3s;
+}
+
+.loc-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 10px;
+}
+
+.create-btn button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: small;
+    color: #242424;
+    
+    background-color: rgb(0, 255, 107);
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+
+    width: 150px;
+    height: 40px;
+
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.create-btn button:hover{
+    background-color: rgb(0, 223, 93);
+    transition: ease 0.3s;
+}
+
+.divider{
+    border: solid 0.5px #ebebeb;
+    width: 300px;
+    height: 1px;
+}

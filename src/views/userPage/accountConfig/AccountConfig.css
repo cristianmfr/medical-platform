@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.account-config{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 50px 0px;
+
+    width: 700px;
+    height: 750px;
+    background: white;
+    color: #242424;
+
+    border-radius: 30px;
+}
+
+.form-user-config{
+    width: 70%;
+}
+
+.form-user-config div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-weight: 700;
+}
+
+.account-config input{
+    width: 300px;
+    height: 40px;
+
+    color: #242424;
+    font-weight: 700;
+    background-color: transparent;
+
+    border: solid 1.5px #242424;
+    border-radius: 10px;
+
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.main-user-container button{
+    margin-top: 10px;
+
+    font-weight: 900;
+    color: #242424;
+    
+    background-color: rgb(0, 255, 107);
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+
+    width: 300px;
+    height: 40px;
+
+    cursor: pointer;
+}
+
+.h-divider{
+    height: 100px;
+    width: 2px;
+    background: rgb(88, 177, 123);
+    border-radius: 10px;
+    margin: 0px 80px;
+}
+
+.logo-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.logo-btn a{
+    text-decoration: none;
+    color: #242424;
+
+    margin-left: 40px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    width: 80%;
+}
+
+.other-options{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.other-options a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20px;
+
+    font-weight: 600;
+    font-size: small;
+    color: #242424;
+    background-color: rgb(0, 255, 107);
+    
+    border-radius: 10px;
+    text-decoration: none;
+
+    width: 200px;
+    height: 40px;
+
+    cursor: pointer;
+}
+
+.other-options a:hover{
+    background-color: rgb(0, 199, 83);
+
+    transition: ease 0.3s;
+}
+
+.password-change{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

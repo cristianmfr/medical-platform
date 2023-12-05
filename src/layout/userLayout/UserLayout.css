@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-user-layout-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    margin: 30px;
+}
+
+.other-options{
+    margin: 20px;
+}

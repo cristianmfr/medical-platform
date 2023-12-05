@@ -1,0 +1,19 @@
+.main-header-user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100px;
+
+    background: rgb(0, 255, 107);
+    color: #242424;
+}
+
+.main-user-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
